@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.card_section{
+    font-family: "Poppins", sans-serif;
+  font-style: normal;
+    background-color: #1E2222;
+    padding: 5rem 5rem 2rem;
+}
+
+.card {
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+.img-card{
+    padding: 1rem 1rem;
+}
+.card-img{
+    height: 50vh;
+}
+.btnStyle{
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 5rem;
+}
+
+.card-section-2{
+    background-color: #F4F3F9;
+    padding: 5rem 5rem 2rem;
+}
+
+.card-img-top{
+    width: 20vw;
+    height: 33vh;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+.card-img-top:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+    overflow: hidden;
+  }
+.card-heading, .card-text{
+    letter-spacing: 1px;
+}
+
+
+.card-section-3{
+    width: 63%;
+    padding: 3rem 0;
+}
+.card-section-3 .heading-3{
+    letter-spacing: 2px;
+}
+.card-section-3 .sub-heading-3{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.BtnBorderRaduis{
+    width: 2rem;
+    border: #1E2222;
+    border-radius: 3rem;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: #1E2222;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: white;
+  }
+  .underline-hover {
+    color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  .underline-hover:hover {
+    text-decoration: underline;
+  }
+
+.card-section-4{
+    background-color: #1E2222;
+    width: 100%;
+    height: 57vh;
+}
+.card-section-4 .img-fluid{
+    width: 50vw;
+    height: 57vh;
+    
+}
+.card-section-4 .card-body{
+    margin: 3.3rem auto;
+    width: 40vw;
+}
+
+.card-section-4 .headings{
+    font-size: 4rem;
+    font-weight: 100;
+}
+.card-section-4 .btn{
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .card_section{
+        padding: 4rem 1.5rem 2rem;
+    }
+    .card-img{
+        height: 22vh;
+    }
+    .card_section .card-title{
+        font-size: 1rem;
+    }
+    .btnStyle{
+        width: 30vw;
+        border-radius: 5rem;
+    }
+    .card-section-2{
+        padding: 3rem 1.7rem 2.5rem;
+    }
+    .card-section-2 .heading-2{
+        font-size: 2rem;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 33vh;
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .card-section-3{
+        width: 100%;
+        padding: 3rem 1.7rem;
+    }
+    .card-section-3 .heading-3{
+        letter-spacing: 1px;
+    }
+    .card-section-3 .sub-heading-3{
+        font-size: 1.9rem;
+    }
+    .card-section-3 .card-body{
+        margin: 2rem 1.5rem;
+    }
+
+    .card-section-4{
+        width: 100%;
+        height: 60vh;
+    }
+    .card-section-4 .card-body{
+        margin: 3rem auto;
+        width: 85%;
+    }
+
+    .card-section-4 .headings{
+        font-size: 2.8rem;
+    }
+    .card-section-4 .btn{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card_section{
+        padding: 4rem 2rem 3rem;
+    }
+    .card-img{
+        height: 30vh;
+    }
+    .card_section .card-title{
+        font-size: 1.3rem;
+    }
+    .btnStyle{
+        width: 23vw;
+        padding: 1.2rem;
+        border-radius: 5rem;
+    }
+
+    .card-section-2{
+        padding: 3rem 2rem 2.5rem;
+    }
+    .card-section-2 .heading-2{
+        font-size: 2rem;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 33vh;
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .card-section-3{
+        width: 80%;
+        padding: 3rem 1.7rem;
+    }
+    .card-section-3 .heading-3{
+        letter-spacing: 1px;
+        font-size: 1.1rem;
+    }
+    .card-section-3 .sub-heading-3{
+        font-size: 1.9rem;
+        font-weight: bold;
+        font-size: 2.6rem;
+    }
+    .card-section-3 .img-fluid{
+        width: 100%;
+        height: 15vh;
+    }
+
+    .card-section-4{
+        width: 100%;
+        height: 35vh;
+    }
+    .card-section-4 .card-body{
+        margin: 4rem 2.5rem;
+        width: 88vw;
+    }
+
+    .card-section-4 .headings{
+        font-size: 3rem;
+    }
+    .card-section-4 .btn{
+        /* width: 100%; */
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+.card_section{
+    padding: 5rem 5rem 2rem;
+}
+.card-img{
+    height: 50vh;
+}
+.btnStyle{
+    cursor: pointer;
+    width: 22vh;
+    border-radius: 5rem;
+}
+.card-section-2{
+    padding: 5rem 5rem 2rem;
+    height: 87vh;
+}
+
+
+.card-section-3{
+    width: 63%;
+    height: 60%;
+    padding: 3rem 0;
+}
+.card-section-3 .heading-3{
+    letter-spacing: 2px;
+}
+.card-section-3 .sub-heading-3{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.card-section-3 .img-fluid{
+    width: 100%;
+    height: 26vh;
+}
+
+.card-section-4{
+    width: 100%;
+    height: 57vh;
+}
+
+.card-section-4 .card-body{
+    margin: 3.3rem auto;
+    width: 40vw;
+}
+
+.card-section-4 .headings{
+    font-size: 3.7rem;
+    font-weight: 100;
+}
+.card-section-4 .btn{
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+}
+}
